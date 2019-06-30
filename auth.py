@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template
+from flask import Blueprint, render_template, redirect, url_for
 
 from . import db
 
@@ -15,5 +15,5 @@ def signup():
 
 @auth.route('/logout')
 def logout():
-    return render_template('Logout')
+    return redirect(url_for('main.index'))
 
