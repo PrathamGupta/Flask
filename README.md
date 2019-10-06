@@ -1,2 +1,3 @@
 # Flask
-Just trying to learn flask here :)
+
+### Trying to learn Python Flask through this repo :)
